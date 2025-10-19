@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="birthdayMessage">🎉 Happy Birthday, Saanvi ! 🎉</h1>
+        <p>Wishing you a day full of love, joy, and laughter!</p>
+
+        <!-- Cake & Candle -->
+        <div class="cake-container">
+            <div class="candle" id="candle"></div>
+            <div class="cake" id="cake"></div>
+        </div>
+
+        <!-- Surprise message -->
+        <div id="surprise" class="hidden">
+            <h2>🎂 May all your dreams come true! 🎂</h2>
+        </div>
+
+        <!-- Wishes Section -->
+        <div class="wishes-section">
+            <h2>Leave Your Birthday Wish</h2>
+            <input type="text" id="wishInput" placeholder="Type your wish here">
+            <button id="addWishBtn">Add Wish</button>
+            <ul id="wishList"></ul>
+        </div>
+
+        <!-- Photo Gallery -->
+        <div class="gallery-section">
+            <h2>Photo Memories</h2>
+            <input type="file" id="photoInput" multiple>
+            <div id="photoGallery" class="photo-gallery"></div>
+        </div>
+
+        <!-- Share & Download -->
+        <div class="share-section">
+            <h2>Share & Download</h2>
+            <button id="downloadBtn">Download Page</button>
+            <p>Or share this page link with friends!</p>
+        </div>
+
+        <footer id="footer">
+            <p>🎂 Made for Saanvi | &copy; 7th October 2025 - Sidharth</p>
+        </footer>
+
+    </div>
+
+    <canvas id="confetti"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>
